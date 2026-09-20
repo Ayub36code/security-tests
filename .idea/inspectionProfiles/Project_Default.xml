@@ -1,0 +1,115 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="alembic" />
+          <option value="apt-listchanges" />
+          <option value="autocommand" />
+          <option value="bcrypt" />
+          <option value="beautifulsoup4" />
+          <option value="blinker" />
+          <option value="Brlapi" />
+          <option value="certifi" />
+          <option value="chardet" />
+          <option value="charset-normalizer" />
+          <option value="cryptography" />
+          <option value="cssselect" />
+          <option value="cupshelpers" />
+          <option value="dbus-python" />
+          <option value="distro" />
+          <option value="duplicity" />
+          <option value="fasteners" />
+          <option value="feedparser" />
+          <option value="fuse-python" />
+          <option value="galternatives" />
+          <option value="greenlet" />
+          <option value="gyp-next" />
+          <option value="html5lib-modern" />
+          <option value="httplib2" />
+          <option value="idna" />
+          <option value="inflect" />
+          <option value="invoke" />
+          <option value="jaraco.context" />
+          <option value="jaraco.functools" />
+          <option value="louis" />
+          <option value="lxml" />
+          <option value="Mako" />
+          <option value="MarkupSafe" />
+          <option value="meteo_qt" />
+          <option value="monotonic" />
+          <option value="more-itertools" />
+          <option value="musicbrainzngs" />
+          <option value="mutagen" />
+          <option value="oauthlib" />
+          <option value="olefile" />
+          <option value="packaging" />
+          <option value="paramiko" />
+          <option value="pexpect" />
+          <option value="pillow" />
+          <option value="psutil" />
+          <option value="ptyprocess" />
+          <option value="pyasyncore" />
+          <option value="pycairo" />
+          <option value="pycryptodomex" />
+          <option value="pycups" />
+          <option value="PyGObject" />
+          <option value="pyinotify" />
+          <option value="PyJWT" />
+          <option value="pylibacl" />
+          <option value="PyNaCl" />
+          <option value="pyparsing" />
+          <option value="PyQt6" />
+          <option value="PyQt6_sip" />
+          <option value="pysmbc" />
+          <option value="python-apt" />
+          <option value="python-debian" />
+          <option value="python-debianbts" />
+          <option value="python-pam" />
+          <option value="python-xlib" />
+          <option value="pytz" />
+          <option value="pyxattr" />
+          <option value="pyxdg" />
+          <option value="PyYAML" />
+          <option value="quodlibet" />
+          <option value="reportbug" />
+          <option value="requests" />
+          <option value="sentry-sdk" />
+          <option value="setproctitle" />
+          <option value="sgmllib3k" />
+          <option value="soupsieve" />
+          <option value="SQLAlchemy" />
+          <option value="tinycss2" />
+          <option value="tornado" />
+          <option value="typeguard" />
+          <option value="typing_extensions" />
+          <option value="urllib3" />
+          <option value="webencodings" />
+          <option value="websockets" />
+          <option value="wheel" />
+          <option value="xdg" />
+          <option value="xlrd" />
+          <option value="yt-dlp" />
+          <option value="bs4" />
+          <option value="collections" />
+          <option value="colorama" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStringConversionWithoutDunderMethodInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredTypes">
+        <list>
+          <option value="types.NoneType" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,53 @@
+{
+  "scanner": "portscan",
+  "host": "savannafibre.com",
+  "scanned_at": "2026-09-19T19:42:44.304459+00:00",
+  "ports_scanned": 1024,
+  "open_ports": [
+    {
+      "port": 21,
+      "service_guess": "ftp",
+      "banner": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ---------- | 220-You are user number 1 of 50 allowed. | 220-Local time is now 12:40. Server port: 21. | 220-This is a private system - No anonymous l"
+    },
+    {
+      "port": 22,
+      "service_guess": "ssh",
+      "banner": "SSH-2.0-OpenSSH_8.0 | Invalid SSH identification string."
+    },
+    {
+      "port": 80,
+      "service_guess": "http",
+      "banner": "HTTP/1.1 200 OK | Date: Sat, 19 Sep 2026 19:40:57 GMT | Server: Apache | Upgrade: h2,h2c | Connection: Upgrade, close | Last-Modified: Tue, 23 Jan 2024 09:15:21 GMT | ETag: \"1055ae-7ab-60f9962c456a8\" "
+    },
+    {
+      "port": 110,
+      "service_guess": "pop3",
+      "banner": "+OK Dovecot ready. | -ERR Unknown command."
+    },
+    {
+      "port": 143,
+      "service_guess": "imap",
+      "banner": "* OK [CAPABILITY IMAP4rev1 LOGIN-REFERRALS ID ENABLE IDLE SASL-IR LITERAL+ STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready."
+    },
+    {
+      "port": 443,
+      "service_guess": "https",
+      "banner": "(TLS \u2014 banner requires a handshake)"
+    },
+    {
+      "port": 587,
+      "service_guess": "submission",
+      "banner": "220-sxb1plzcpnl504891.prod.sxb1.secureserver.net ESMTP Exim 4.100 #2 Sat, 19 Sep 2026 12:41:53 -0700  | 220-We do not authorize the use of this system to transport unsolicited,  | 220 and/or bulk e-ma"
+    },
+    {
+      "port": 993,
+      "service_guess": "imaps",
+      "banner": "(TLS \u2014 banner requires a handshake)"
+    },
+    {
+      "port": 995,
+      "service_guess": "pop3s",
+      "banner": "(TLS \u2014 banner requires a handshake)"
+    }
+  ]
+}

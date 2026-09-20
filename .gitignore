@@ -1,0 +1,10 @@
+# Never commit real scan artifacts
+reports/
+data/registry.json
+targets/*.json
+!targets/example-target.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
